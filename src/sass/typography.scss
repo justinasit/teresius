@@ -1,0 +1,30 @@
+body {
+    color: black;
+    background-color: $body-background;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1, h2, h3 {
+    color: $heading-colour;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 5%;
+}
+
+li::before {
+    border-style: solid;
+    border-width: 0.15em 0.15em 0 0;
+    content: '';
+    display: inline-block;
+    height: 0.45em;
+    left: 0.15em;
+    position: relative;
+    top: 0.3em;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    vertical-align: super;
+    width: 0.45em;
+    margin-right: 10px;
+}
